@@ -1,0 +1,94 @@
+"spoonacular" : {
+    "complexSearch": {
+        "endpoint" : "https://api.spoonacular.com/recipes/complexSearch?",
+        
+        "options":{
+            "required": {
+                "number": int,
+            },
+            "optional": {
+                "query": str,
+                "cuisine": str,
+                "intolerances": str,
+                "type": str,
+                "equipment": str,
+                "includeIngredients": str,
+                "excludeIngredients": str,
+                "ignorePantry": bool,
+                "fillIngredients": bool,
+                "maxCalories": int,
+                "minCalories": int,
+                "minFat": int,
+                "maxFat": int,
+                "minAlcohol": int,
+                "maxCarbs": int,
+                "minCarbs": int
+                
+            }
+        }            
+    },
+
+    "findByNutrients":{
+        "endpoint": "https://api.spoonacular.com/recipes/findByIngredients?",
+
+        "options":{    
+            
+            "required":{
+
+            },
+            "optional":{
+                "maxCalories": int,
+                "minCalories": int,
+                "minFat": int,
+                "maxFat": int,
+                "minAlcohol": int,
+                "maxCarbs": int,
+                "minCarbs": int,
+                "minCaffeine": int,
+                "maxCaffeine": int,
+                "maxCalcium": int,
+                "minCalcium": int,
+                "minVitaminA": int,
+                "minVitaminB": int,
+                "minVitaminC": int,
+                "minVitaminD": int,
+                "minVitaminE": int,
+                "minVitaminK": int,
+                "minVitaminB1": int,
+                "minVitaminB2": int,
+                "minVitaminB5": int,
+                "minVitaminB3": int,
+                "minVitaminB6": int,
+                "minVitaminB12": int,
+                "minFiber": int,
+                "minFolate": int,
+                "minFolicAcid": int,
+                "minIodine": int,
+                "minIron": int,
+                "minMagnesium": int,
+                "minManganese": int,
+                "minPotassium": int,
+                "minSelenium": int,
+                "minSodium": int,
+                "minSugar": int,
+                "minZinc": int
+
+            }   
+        }
+    },
+    "informationBulk":{
+
+        "endpoint": "https://api.spoonacular.com/recipes/informationBulk?apiKey={}".format(self.spoonacular_api),
+        "options":{
+
+            "required":{
+
+            },
+
+            "optional":{
+
+
+            }
+        }
+    }
+}

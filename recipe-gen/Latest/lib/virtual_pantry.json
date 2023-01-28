@@ -1,0 +1,28 @@
+{
+    "food": [
+        {
+            "name": "'RIDGE CUT POTATO SALT &",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "DIP TZATZIKI",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "DIP ARTICHOKE JALAPENO",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "2 805 Dft @ 6.55",
+            "price": 6.55,
+            "quantity": 2.0,
+            "date_bought": null
+        }
+    ]
+}

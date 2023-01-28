@@ -1,0 +1,487 @@
+{
+    "food": [
+        {
+            "name": "DIP TZATZIKI",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "DIP ARTICHOKE JALAPENO",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "chicken thigh",
+            "price": 6.55,
+            "quantity": 2.0,
+            "date_bought": null
+        },
+        {
+            "name": "asparagus",
+            "price": 6.55,
+            "quantity": 2.0,
+            "date_bought": null
+        },
+        {
+            "name": "basmati rice",
+            "price": 6.55,
+            "quantity": 2.0,
+            "date_bought": null
+        },
+        {
+            "name": "onion",
+            "price": 6.55,
+            "quantity": 2.0,
+            "date_bought": null
+        },
+        {
+            "name": "garlic",
+            "price": 1,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "coffee",
+            "price": 3.0,
+            "quantity": 2.0,
+            "date_bought": null
+        },
+        {
+            "name": "fish",
+            "price": 3.0,
+            "quantity": 2.0,
+            "date_bought": null
+        },
+        {
+            "name": "mustard",
+            "price": 3.0,
+            "quantity": 2.0,
+            "date_bought": null
+        },
+        {
+            "name": "ORG TMTO & RSTD RD PEPPE",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "FZN BROCCOLI FLORETS",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "A-MANDARIN JOSIE'S 5 LB",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "FRENCH GREEN BEANS",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "TACOS MINI CHICKEN",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "PEANUT BUTTER CUPS DARK",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "R-COMPLETE STIR FRY VEGE",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "SALAD SW CHOPPED 13.6 OZ",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "HANDMADE FLOUR TORTILLAS",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "SWITZERLAND GRUYERE",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "YOGURT GREEK MANGO NF 0%",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "YOGURT GREEK VANILLA BEA",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "YOGURT GREEK STRAWBERRY",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        },
+        {
+            "name": "BAG FEE.",
+            "price": null,
+            "quantity": 1.0,
+            "date_bought": null
+        }
+    ],
+    "exercises":{
+    
+        "chest": {
+            "cable":[
+                "Low-cable cross-over",
+                "Incline cable chest fly"
+            ],
+            "weight":[
+                "Dumbbell Bench Press",
+                "Pushups",
+                "Close-grip bench press",
+                "Dumbbell Flyes",
+                "Incline dumbbell bench press",
+                "Barbell Bench Press - Medium Grip",
+                "Chest dip",
+                "Decline Dumbbell Flyes",
+                "Bodyweight Flyes",
+                "Decline barbell bench press",
+                "Wide-grip bench press",
+                "Wide-Grip Decline Barbell Bench Press",
+                "Reverse-grip incline dumbbell bench press"
+            ]
+        },
+        "back":{
+            "middle back": {
+    
+                    "cable":[
+                        "Seated Cable Rows",
+                        "Upside-down pull-up",
+                        "Single-arm cable seated row"
+                        ],
+                    "weight":[
+                        "T-Bar Row with Handle",
+                        "Reverse-grip bent-over row",
+                        "One-Arm Dumbbell Row",
+                        "One-Arm Long Bar Row",
+                        "T-Bar Row",
+                        "Bent Over Two-Arm Long Bar Row",
+                        "Alternating sit-through with crunch",
+                        "Rower",
+                        "Incline dumbbell row",
+                        "Bent Over Two-Dumbbell Row With Palms In",
+                        "Bent Over Barbell Row",
+                        "Kettlebell alternating renegade row"
+                        ]
+                },
+            "lower back": {
+    
+                "cable":[
+                    "Atlas Stones",
+                    "Barbell deficit deadlift",
+                    "Back extension",
+                    "Axle Deadlift",
+                    "Hyperextensions With No Hyperextension Bench",
+                    "Deadlift with Bands",
+                    "Deadlift with Chains",
+                    "Rack Pull with Bands",
+                    "Superman",
+                    "Exercise ball weighted hyperextension",
+                    "Rack pull",
+                    "Seated Back Extension",
+                    "Seated Good Mornings",
+                    "Stiff Leg Barbell Good Morning",
+                    "Atlas Stone Trainer"
+                    ],
+                "weight":[
+                    
+                ]
+            },
+            "lats": {
+                "cable":[
+                    
+                    "Rocky Pull-Ups/Pulldowns",
+                    "Close-grip pull-down",
+                    "Shotgun row",
+                    "Close-Grip Front Lat Pulldown",
+                    "V-bar pull-up",
+                    "Rope climb",
+                    "Straight-arm rope pull-down",
+                    "Lat pull-down",
+                    "Reverse-grip lat pull-down"
+                ],
+                "weight":[
+                    "Weighted pull-up",
+                    "Pull-up",
+                    "Muscle Up",
+                    "Wide-Grip Rear Pull-Up"
+                ]
+            },
+    
+            "neck": {
+                "cable":[
+    
+                ],
+                "weight":[
+                    "Lying Face Down Plate Neck Resistance",
+                    "Lying Face Up Plate Neck Resistance",
+                    "Seated Head Harness Neck Resistance",
+                    "Isometric Neck Exercise - Sides",
+                    "Isometric Neck Exercise - Front And Back",
+                    "Neck Bridge Prone",
+                    "Side Neck Stretch",
+                    "Chin To Chest Stretch"
+                ]
+            },
+            "traps": {
+                "cable":[
+                    "Smith machine shrug",
+                    "Calf-Machine Shoulder Shrug",
+                    "Cable straight-bar upright row",
+                    "Cable shrug",
+                    "Smith machine behind-the-back shrug",
+                    "Smith machine upright row"
+                ],
+                "weight":[
+                    "Leverage Shrug",
+                    "Standing dumbbell shrug",
+                    "Standing dumbbell upright row",
+                    "Kettlebell sumo deadlift high pull",
+                    "Barbell shrug",
+                    "Barbell behind-the-back shrug",
+                    "Upright Row - With Bands",
+                    "Clean Shrug"
+                ]
+            }
+        },   
+        "legs": {
+            "quadriceps": {
+                "cable":[
+                    "Single-Leg Press",
+                    "Stair climber"
+                ],
+                "weight":[
+                    "Barbell Full Squat",
+                    "Tire flip",
+                    "Barbell back squat to box",
+                    "Push-press",
+                    "Power snatch-",
+                    "Hang Clean",
+                    "Reverse Band Box Squat",
+                    "Jumping rope",
+                    "Barbell walking lunge",
+                    "Front Squats With Two Kettlebells",
+                    "Single Leg Push-off",
+                    "Olympic Squat",
+                    "Clean from Blocks"
+                ]
+            },
+            "hamstrings": {
+                "cable":[
+                    "Lying Leg Curls",
+                    "Exercise ball leg curl"
+                ],
+                "weight":[
+                    "Barbell Deadlift",
+                    "Romanian Deadlift With Dumbbells",
+                    "Clean Deadlift",
+                    "Sumo deadlift",
+                    "Romanian Deadlift from Deficit",
+                    "Power Snatch",
+                    "Power Clean from Blocks",
+                    "Natural Glute Ham Raise",
+                    "Glute ham raise-",
+                    "Snatch Deadlift",
+                    "Stiff-Legged Dumbbell Deadlift",
+                    "Kettlebell pass-through lunge",
+                    "Power clean"
+                ]
+            },
+            "calves": {
+                "cable":[
+                    "Smith Machine Calf Raise",
+                    "Seated Calf Raise",
+                    "Calf Press On The Leg Press Machine",
+                    "Smith Machine Reverse Calf Raises"
+                ],
+                "weight":[
+                    "Standing Calf Raises",
+                    "Rocking Standing Calf Raise",
+                    "Calf Press",
+                    "Standing barbell calf raise",
+                    "Barbell Seated Calf Raise",
+                    "Balance Board",
+                    "Weighted donkey calf raise",
+                    "Dumbbell Seated One-Leg Calf Raise",
+                    "Ankle Circles",
+                    "Peroneals-SMR",
+                    "Knee Circles"
+                ]
+            },
+            "glutes": {
+                "cable":[
+                    "Single-leg cable hip extension",
+                    "Glute bridge",
+                    "Single-leg glute bridge",
+                    "Exercise ball hip thrust"
+                ],
+                "weight":[
+                    "Barbell glute bridge",
+                    "Barbell Hip Thrust",
+                    "Step-up with knee raise",
+                    "Kettlebell thruster",
+                    "Kneeling Squat",
+                    "Flutter Kicks",
+                    "Glute Kickback",
+                    "Kneeling Jump Squat",
+                    "Pull Through",
+                    "Hip Extension with Bands"
+                ]
+            }
+        },
+        "triceps": {
+            "cable":[
+                "Cable V-bar push-down",
+                "Reverse Grip Triceps Pushdown",
+                "Kneeling cable triceps extension",
+                "Single-arm cable triceps extension",
+                "Triceps Pushdown - Rope Attachment"
+            ],
+            "weight":[
+                "Push-Ups - Close Triceps Position",
+                "Triceps dip",
+                "Decline EZ-bar skullcrusher",
+                "Dumbbell floor press",
+                "Seated triceps press",
+                "Incline EZ-bar skullcrusher",
+                "Decline Close-Grip Bench To Skull Crusher",
+                "Tricep Dumbbell Kickback",
+                "Weighted bench dip",
+                "EZ-Bar Skullcrusher"
+            ]
+        },
+        
+        "shoulders": {
+            "cable":[
+            ],
+            "weight":[
+                "Dumbbell front raise to lateral raise",
+                "Clean and press",
+                "Single-arm palm-in dumbbell shoulder press",
+                "Clean and jerk",
+                "Single-arm kettlebell push-press",
+                "Military press",
+                "Standing palms-in shoulder press",
+                "Seated barbell shoulder press",
+                "Seated Dumbbell Press",
+                "Standing dumbbell shoulder press",
+                "Single-arm lateral raise",
+                "Overhead dumbbell front raise",
+                "Seated dumbbell shoulder press",
+                "Incline dumbbell reverse fly"
+            ]
+        },
+        "abdominals": {
+            "cable":[
+                "Suspended ab fall-out",
+                "Standing cable low-to-high twist",
+                "Hanging toes-to-bar",
+                "Single-arm high-cable side bend"
+            ],
+            "weight":[
+                "Landmine twist",
+                "Elbow plank",
+                "Bottoms Up",
+                "Dumbbell V-Sit Cross Jab",
+                "Decline reverse crunch",
+                "Spider crawl",
+                "Cocoons",
+                "Cross-Body Crunch",
+                "Elbow-to-knee crunch",
+                "Decline Crunch",
+                "Dumbbell spell caster"
+            ]
+        },
+        
+        "biceps": {
+            "cable":[
+                "Overhead cable curl"
+            ],
+            "weight":[
+                "Incline Hammer Curls",
+                "Wide-grip barbell curl",
+                "EZ-bar spider curl",
+                "Hammer Curls",
+                "EZ-Bar Curl",
+                "Zottman Curl",
+                "Biceps curl to shoulder press",
+                "Barbell Curl",
+                "Concentration curl",
+                "Flexor Incline Dumbbell Curls",
+                "Machine Bicep Curl",
+                "Dumbbell Bicep Curl",
+                "Close-grip EZ-bar curl",
+                "Cross-body hammer curl"
+            ]
+        },
+        "adductor": {
+            "cable":[
+                "Thigh adductor"
+            ],
+            "weight":[
+                "Groiners",
+                "Band Hip Adductions",
+                "Side Leg Raises",
+                "Lateral hop",
+                "Groin and Back Stretch",
+                "Adductor SMR",
+                "Side Lying Groin Stretch",
+                "Adductor/Groin",
+                "Lying Bent Leg Groin",
+                "Carioca quick step",
+                "Lateral cone hop",
+                "Lateral box jump",
+                "Side-To-Side Adductor Stretch",
+                "HM Left Leg Swing"
+            ]
+        },
+        "abductors": {
+            "cable":[
+                "Thigh abductor"
+            ],
+            "weight":[
+                "Hip Circles (Prone)",
+                "Standing Hip Circles",
+                "Clam",
+                "Iliotibial band SMR",
+                "Fire Hydrant",
+                "Windmills",
+                "Monster Walk",
+                "IT Band and Glute Stretch",
+                "Single-leg lying cross-over stretch",
+                "Standing hip circle",
+                "Lateral Band Walk",
+                "Dynamic pigeon stretch",
+                "Cross-over jack",
+                "Traveling thigh killa"
+            ]
+        }
+    }
+}
