@@ -1,0 +1,379 @@
+{
+    "ExerciseData": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Kettlebell sumo deadlift high pull"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "traps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell shrug"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "traps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell behind-the-back shrug"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "traps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Upright Row - With Bands"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "traps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Clean Shrug"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "traps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Single-Leg Press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Stair climber"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell Full Squat"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Tire flip"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell back squat to box"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Push-press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Power snatch-"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Hang Clean"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Reverse Band Box Squat"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Jumping rope"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell walking lunge"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Front Squats With Two Kettlebells"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Single Leg Push-off"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Olympic Squat"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Clean from Blocks"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "quadriceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Lying Leg Curls"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Exercise ball leg curl"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell Deadlift"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Romanian Deadlift With Dumbbells"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Clean Deadlift"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        }
+    ]
+}

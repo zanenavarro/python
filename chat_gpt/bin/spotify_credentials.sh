@@ -1,0 +1,3 @@
+export SPOTIPY_CLIENT_ID='ecf41aae00a9431989c8b10d37b391a8'
+export SPOTIPY_CLIENT_SECRET='04ed59fdf6814eacbf7e24b33d3e09bc'
+export SPOTIPY_REDIRECT_URI='https://accounts.spotify.com/authorize?client_id=ecf41aae00a9431989c8b10d37b391a8&response_type=code&redirect_uri=%257B%257BEDUCATIVE_LIVE_VM_URL%257D%257D%252Fcallback%26scope%3D04ed59fdf6814eacbf7e24b33d3e09bc&scope=04ed59fdf6814eacbf7e24b33d3e09bc'

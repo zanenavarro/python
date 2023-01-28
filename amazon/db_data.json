@@ -1,0 +1,34 @@
+{
+    "Exercises": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Group": {
+                        "S": "chest_1"
+                    },
+                    "Category": {
+                        "S": "cable"
+                    },
+                    "Name": {
+                        "S": "Low-cable cross-over"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Group": {
+                        "S": "chest_2"
+                    },
+                    "Category": {
+                        "S": "cable"
+                    },
+                    "Name": {
+                        "S": "Incline cable chest fly"
+                    }
+                }
+            }
+        }
+    ]
+}

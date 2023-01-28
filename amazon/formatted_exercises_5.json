@@ -1,0 +1,379 @@
+{
+    "ExerciseData": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Sumo deadlift"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Romanian Deadlift from Deficit"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Power Snatch"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Power Clean from Blocks"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Natural Glute Ham Raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Glute ham raise-"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Snatch Deadlift"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Stiff-Legged Dumbbell Deadlift"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Kettlebell pass-through lunge"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Power clean"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "hamstrings"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Smith Machine Calf Raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Seated Calf Raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Calf Press On The Leg Press Machine"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Smith Machine Reverse Calf Raises"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Standing Calf Raises"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Rocking Standing Calf Raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Calf Press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Standing barbell calf raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell Seated Calf Raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Balance Board"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Weighted donkey calf raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Dumbbell Seated One-Leg Calf Raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Ankle Circles"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Peroneals-SMR"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Knee Circles"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "calves"
+                    }
+                }
+            }
+        }
+    ]
+}

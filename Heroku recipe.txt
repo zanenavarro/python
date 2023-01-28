@@ -1,0 +1,10 @@
+git init
+heroku create --buildpack heroku/python
+git add *
+git commit -am "initial commit"
+git push heroku master
+heroku ps:scale bot=1
+
+
+//deploy
+heroku ps:scale bot=1

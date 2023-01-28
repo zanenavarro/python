@@ -1,0 +1,379 @@
+{
+    "ExerciseData": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Low-cable cross-over"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Incline cable chest fly"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Dumbbell Bench Press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Pushups"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Close-grip bench press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Dumbbell Flyes"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Incline dumbbell bench press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell Bench Press - Medium Grip"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Chest dip"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Decline Dumbbell Flyes"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Bodyweight Flyes"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Decline barbell bench press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Wide-grip bench press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Wide-Grip Decline Barbell Bench Press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Reverse-grip incline dumbbell bench press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "chest"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Seated Cable Rows"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Upside-down pull-up"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Single-arm cable seated row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "T-Bar Row with Handle"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Reverse-grip bent-over row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "One-Arm Dumbbell Row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "One-Arm Long Bar Row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "T-Bar Row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Bent Over Two-Arm Long Bar Row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Alternating sit-through with crunch"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        }
+    ]
+}
