@@ -1,0 +1,379 @@
+{
+    "ExerciseData": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Single-leg cable hip extension"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Glute bridge"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Single-leg glute bridge"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Exercise ball hip thrust"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell glute bridge"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell Hip Thrust"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Step-up with knee raise"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Kettlebell thruster"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Kneeling Squat"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Flutter Kicks"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Glute Kickback"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Kneeling Jump Squat"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Pull Through"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Hip Extension with Bands"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "glutes"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Cable V-bar push-down"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Reverse Grip Triceps Pushdown"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Kneeling cable triceps extension"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Single-arm cable triceps extension"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Triceps Pushdown - Rope Attachment"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Push-Ups - Close Triceps Position"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Triceps dip"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Decline EZ-bar skullcrusher"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Dumbbell floor press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Seated triceps press"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Incline EZ-bar skullcrusher"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "triceps"
+                    }
+                }
+            }
+        }
+    ]
+}

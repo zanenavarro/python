@@ -1,0 +1,379 @@
+{
+    "ExerciseData": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Rower"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Incline dumbbell row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Bent Over Two-Dumbbell Row With Palms In"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Bent Over Barbell Row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Kettlebell alternating renegade row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "weight"
+                    },
+                    "ExerciseCategory": {
+                        "S": "middle back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Atlas Stones"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Barbell deficit deadlift"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Back extension"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Axle Deadlift"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Hyperextensions With No Hyperextension Bench"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Deadlift with Bands"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Deadlift with Chains"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Rack Pull with Bands"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Superman"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Exercise ball weighted hyperextension"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Rack pull"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Seated Back Extension"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Seated Good Mornings"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Stiff Leg Barbell Good Morning"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Atlas Stone Trainer"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lower back"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Rocky Pull-Ups/Pulldowns"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lats"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Close-grip pull-down"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lats"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Shotgun row"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lats"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "Close-Grip Front Lat Pulldown"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lats"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ExerciseName": {
+                        "S": "V-bar pull-up"
+                    },
+                    "ExerciseGroup": {
+                        "S": "cable"
+                    },
+                    "ExerciseCategory": {
+                        "S": "lats"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+list = ['Demon Slayer: Kimetsu No Yaiba Entertainment District Arc\nDemon Slayer: Kimetsu No Yaiba Entertainment District Arc\nSERIES', 'Demon Slayer: Kimetsu No Yaiba Mugen Train Arc\nDemon Slayer: Kimetsu No Yaiba Mugen Train Arc\nSERIES', 'Demon Slayer Kimetsu No Yaiba\nDemon Slayer Kimetsu No Yaiba\nSERIES', 'Naruto Shippuden\nNaruto Shippuden\nSERIES', 'Funimation\nFunimation\nNETWORK', 'My Hero Academia\nMy Hero Academia\nSERIES', 
+'Attack on Titan\nAttack on Titan\nSERIES', 'Boruto: Naruto Next Generations\nBoruto: Naruto Next Generations\nSERIES', 'Hunter x Hunter\nHunter x Hunter\nSERIES', 'Toilet-bound Hanako-kun\nToilet-bound Hanako-kun\nSERIES', 'One Piece\nOne Piece\nSERIES', 'Attack on Titan: Junior High\nAttack on Titan: Junior High\nSERIES', 'The Hug (2018)\nThe Hug (2018)\nMOVIE', 'Aniplex\nAniplex\nNETWORK', 'My Hero Academia: Heroes Rising (2019)\nMy Hero Academia: Heroes Rising (2019)\nAdd STARZ® for $8.99/month after 7-day free trial (if eligible)\nWATCH WITH STARZ® ADD-ON\nMOVIE', 'Naruto\nNaruto\nSERIES', 'Anime Network\nAnime Network\nNETWORK', 'Slayers\nSlayers\nSERIES', 'Inazuma Eleven Ares\nInazuma Eleven Ares\nAdd Live TV and get over 75+ channels for live sports, news, and more\nWATCH WITH LIVE TV\nSERIES', 'Toei Animation\nToei Animation\nNETWORK', 'Venom (2018)\nVenom (2018)\nAdd STARZ® for $8.99/month after 7-day free trial (if eligible)\nWATCH WITH STARZ® ADD-ON\nMOVIE', 'Demon Lord, Retry!\nDemon Lord, Retry!\nSERIES', 'Yuri!!! on Ice\nSERIES']
+final_list = []
+for i in list:
+    h = i.split("\n")
+    final_list.append(h[0])
+print(final_list)
+#content = driver

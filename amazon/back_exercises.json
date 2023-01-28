@@ -1,0 +1,717 @@
+[
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Seated Cable Rows"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Upside-down pull-up"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Single-arm cable seated row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "T-Bar Row with Handle"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Reverse-grip bent-over row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "One-Arm Dumbbell Row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "One-Arm Long Bar Row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "T-Bar Row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Bent Over Two-Arm Long Bar Row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Alternating sit-through with crunch"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Rower"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Incline dumbbell row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Bent Over Two-Dumbbell Row With Palms In"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Bent Over Barbell Row"
+            }
+        },
+        {
+            "Group": {
+                "S": "middle back"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Kettlebell alternating renegade row"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Atlas Stones"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Barbell deficit deadlift"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Back extension"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Axle Deadlift"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Hyperextensions With No Hyperextension Bench"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Deadlift with Bands"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Deadlift with Chains"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Rack Pull with Bands"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Superman"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Exercise ball weighted hyperextension"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Rack pull"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Seated Back Extension"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Seated Good Mornings"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Stiff Leg Barbell Good Morning"
+            }
+        },
+        {
+            "Group": {
+                "S": "lower back"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Atlas Stone Trainer"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Rocky Pull-Ups/Pulldowns"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Close-grip pull-down"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Shotgun row"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Close-Grip Front Lat Pulldown"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "V-bar pull-up"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Rope climb"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Straight-arm rope pull-down"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Lat pull-down"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Reverse-grip lat pull-down"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Weighted pull-up"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Pull-up"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Muscle Up"
+            }
+        },
+        {
+            "Group": {
+                "S": "lats"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Wide-Grip Rear Pull-Up"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Lying Face Down Plate Neck Resistance"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Lying Face Up Plate Neck Resistance"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Seated Head Harness Neck Resistance"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Isometric Neck Exercise - Sides"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Isometric Neck Exercise - Front And Back"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Neck Bridge Prone"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Side Neck Stretch"
+            }
+        },
+        {
+            "Group": {
+                "S": "neck"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Chin To Chest Stretch"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Smith machine shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Calf-Machine Shoulder Shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Cable straight-bar upright row"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Cable shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Smith machine behind-the-back shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "cable"
+            },
+            "Name": {
+                "S": "Smith machine upright row"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Leverage Shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Standing dumbbell shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Standing dumbbell upright row"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Kettlebell sumo deadlift high pull"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Barbell shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Barbell behind-the-back shrug"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Upright Row - With Bands"
+            }
+        },
+        {
+            "Group": {
+                "S": "traps"
+            },
+            "Category": {
+                "S": "weight"
+            },
+            "Name": {
+                "S": "Clean Shrug"
+            }
+        }
+]

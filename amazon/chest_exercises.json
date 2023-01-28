@@ -1,0 +1,167 @@
+[
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "cable"
+        },
+        "Name": {
+            "S": "Low-cable cross-over"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "cable"
+        },
+        "Name": {
+            "S": "Incline cable chest fly"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Dumbbell Bench Press"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Pushups"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Close-grip bench press"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Dumbbell Flyes"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Incline dumbbell bench press"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Barbell Bench Press - Medium Grip"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Chest dip"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Decline Dumbbell Flyes"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Bodyweight Flyes"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Decline barbell bench press"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Wide-grip bench press"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Wide-Grip Decline Barbell Bench Press"
+        }
+    },
+    {
+        "Group": {
+            "S": "chest"
+        },
+        "Category": {
+            "S": "weight"
+        },
+        "Name": {
+            "S": "Reverse-grip incline dumbbell bench press"
+        }
+    }
+]
