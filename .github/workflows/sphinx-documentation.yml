@@ -8,14 +8,15 @@ jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "this is working"
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v35
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: List all changed files
+      - name: Get changed files
+        id: changed_files
         run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
-          done
-            
+          echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r $GITHUB_SHA)"
+
+      - name: Print changed files
+        run: |
+          echo "Changed files:"
+          echo "${steps.changed_files.outputs.files}"
