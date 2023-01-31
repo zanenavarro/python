@@ -18,4 +18,5 @@ jobs:
         CHANGED_FILES: ${{ env.CHANGED_FILES }}
 
     - name: Print changed files
-      run: echo "Changed files: $CHANGED_FILES"
+      run: |
+        echo "Changed files: $CHANGED_FILES"
