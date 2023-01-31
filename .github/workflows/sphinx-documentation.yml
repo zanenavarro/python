@@ -1,7 +1,8 @@
 name: Sphinx Auto Documentation
 run-name: ${{ github.actor }} is generating documentation
-on: [push]
-      paths:
+on: 
+  push:
+    paths:
       - '**.py'
 jobs:
   sphinx-auto-generate:
