@@ -8,16 +8,16 @@ jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
     steps:
-        - run: echo "this is working"
-        - name: Get changed files
-          id: changed-files-specific
-          uses: tj-actions/changed-files@v35
-          with:
-            files: '**.py' # Alternatively using: `docs/**` or `docs`
+      - run: echo "this is working"
+      - name: Get changed files
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v35
+        with:
+          files: '**.py' # Alternatively using: `docs/**` or `docs`
 
-         - name: Run step if any file(s) in the docs folder change
-            if: steps.changed-files-specific.outputs.any_changed == 'true'
-            run: |
-              echo "One or more files in the docs folder has changed."
-              echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
+      - name: Run step if any file(s) in the docs folder change
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: |
+          echo "One or more files in the docs folder has changed."
+          echo "List all the files that have changed: ${{ steps.changed-files-specific.outputs.all_changed_files }}"
             
