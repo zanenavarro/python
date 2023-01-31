@@ -2,7 +2,6 @@ import json
 import sys
 sys.path.append("../../util")
 from Util import Util
-#debug - testing jenkins - debug
 
 class discord_data_class(Util):
 
