@@ -1,7 +1,7 @@
 import json
 import sys
 sys.path.append("../../util")
-from Util import Util 
+from Util import Util  
 
 # testing sphinx gen yml    
 
