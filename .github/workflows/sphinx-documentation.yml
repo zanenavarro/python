@@ -12,9 +12,7 @@ jobs:
         with:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
           lfs: true
-          env:
-            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          token: $ACCESS_TOKEN
+          token: ${{ secrets.ACCESS_TOKEN }}
 
       # Example 1
       - name: Get changed files
