@@ -8,7 +8,7 @@ jobs:
     name: ${{ github.actor }} is generating documentation
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
           lfs: true
