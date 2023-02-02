@@ -8,15 +8,30 @@ jobs:
     name: ${{ github.actor }} is generating documentation
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
 
-    - name: Get changed files
-      id: changed_files
-      run: echo "CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r $GITHUB_SHA)"
-      env:
-        CHANGED_FILES: ${{ env.CHANGED_FILES }}
+      # Example 1
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
 
-    - name: Print changed files
-      run: |
-        echo "Changed files: $CHANGED_FILES"
+      - name: List all changed files
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+          done
+    # steps:
+    # - name: Checkout code
+    #   uses: actions/checkout@v2
+
+    # - name: Get changed files
+    #   id: changed_files
+    #   run: echo "CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r $GITHUB_SHA)"
+    #   env:
+    #     CHANGED_FILES: ${{ env.CHANGED_FILES }}
+
+    # - name: Print changed files
+    #   run: |
+    #     echo "Changed files: $CHANGED_FILES"
