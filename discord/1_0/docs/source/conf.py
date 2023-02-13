@@ -13,6 +13,14 @@
 import os
 import sys
 sys.path.append("../../lib")
+sys.path.append("../../util")
+import discord_data_class
+import amazon
+import entertainment
+import receipt_ocr
+import recipe
+import gym
+
 
 
 # -- Project information -----------------------------------------------------

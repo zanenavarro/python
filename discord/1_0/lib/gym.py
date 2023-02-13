@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 
-from ..util import AmazonHelper
+import sys
+sys.path.append("../util")
+from amazon import AmazonHelper
 from discord_data_class import discord_data_class
 
 

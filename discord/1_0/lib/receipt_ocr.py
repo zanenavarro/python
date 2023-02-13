@@ -9,7 +9,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 from discord_data_class import discord_data_class
-from ..util import AmazonHelper
+import sys
+sys.path.append("../util")
+from amazon import AmazonHelper
+print(AmazonHelper)
 
 
 class ReceiptHelper(AmazonHelper):
@@ -30,7 +33,7 @@ class ReceiptHelper(AmazonHelper):
         file_name = image_url.split("/")[-1]
         res = requests.get(image_url, stream = True)
         if res.status_code == 200:
-            with open(file_name,'wb') as f:
+            with open(file_name, 'wb') as f:
                 shutil.copyfileobj(res.raw, f)
             print('Image sucessfully Downloaded: ',file_name)
         else:

@@ -1,6 +1,4 @@
 """
-ENVISION:
-
 a class thaf has methods to search movies and shows for every provider
 
 method 1) find_show (search_word)
@@ -14,8 +12,10 @@ returns
 
 
 """
-from ..util import AmazonHelper
+import sys
+sys.path.append("../util")
 from discord_data_class import discord_data_class
+from amazon import AmazonHelper
 
 
 
@@ -38,19 +38,19 @@ class EntertainmentHelper(AmazonHelper):
 
         
     
-    def netflix_search(self,search_word):
+    def netflix_search(self, search_word):
         self.print_debug("searching netflix...")
     
-    def youtube_search(self,search_word):
+    def youtube_search(self, search_word):
         self.print_debug("searching youtube..")
 
-    def amazon_prime_search(self,search_word):
+    def amazon_prime_search(self, search_word):
         self.print_debug("searching amazin prime...")
     
-    def hbo_max_search(self,search_word):
+    def hbo_max_search(self, search_word):
         self.print_debug("searching hbo max...")
 
-    def peacock_search(self,search_word)
+    def peacock_search(self ,search_word):
         self.print_debug("searching for peacock...")
 
 

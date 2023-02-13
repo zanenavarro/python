@@ -10,15 +10,16 @@ class discord_data_class(Util):
     def __init__(self):
         super(discord_data_class).__init__()
         self.embed_list = []
-        self.body_type = {
-            "PONG": 1,
-            "CHANNEL_MESSAGE_WITH_SOURCE": 4,
-            "DEFERRED_CHANNEL_MESSAGE_WITH_SOURCE": 5,
-            "DEFERRED_UPDATE_MESSAGE": 6,
-            "UPDATE_MESSAGE": 7,
-            "APPLICATION_COMMAND_AUTOCOMPLETE_RESULT": 8,
-            "MODAL": 9
-        }
+        # self.body_type = {
+        #     # "PONG": 1,
+        #     # "CHANNEL_MESSAGE_WITH_SOURCE": 4,
+        #     # "DEFERRED_CHANNEL_MESSAGE_WITH_SOURCE": 5,
+        #     # "DEFERRED_UPDATE_MESSAGE": 6,
+        #     # "UPDATE_MESSAGE": 7,
+        #     # "APPLICATION_COMMAND_AUTOCOMPLETE_RESULT": 8,
+        #     # "MODAL": 9
+        # }
+        # TODO: discord_lib to hold items 
 
         self.discord_message = {
             "tts": False,
@@ -50,21 +51,33 @@ class discord_data_class(Util):
         }
         self.title_name = "NOT_DEFINED"
 
-    def load_content(self, embed_content):
+    def set_embed_description(self, description_info):
+        """ sets embed description
+        :param: description_info: description str to be used in embed 
+        :type: description_info: <str>
+        :return: None
+        :return: type
+        """
+        self.embed_description = description_info
+
+    def load_embed_content(self):
         """create array of embeds
         :param: content_list: list of message content
         :type: content_list: <list>
         :return: None
         """
 
-        # Create an embed for every message in Content_list
-        #for item in content_list:
+        # Get embed template
         temp_dict = self.embed_dict.copy()
-        temp_dict["description"] = embed_content
+        
+        # Add items       
+        temp_dict["description"] = self.embed_description
         temp_dict["title"] = self.title_name
+        
+        # Updates global embed list
         self.embed_list.append(temp_dict)
 
-    def get_message(self, type_name):
+    def get_message(self, type_num):
         # Default to only embeds
         """returns a discord message
         :param: type: body type of message
@@ -77,13 +90,13 @@ class discord_data_class(Util):
         message_data = {
                 'statusCode': 200,
                 'body': {
-                    'type': self.body_type[type_name],
+                    'type': type_num,
                     'data': self.discord_message
                     }
                 }
         return message_data
 
-    def set_title(self, title_name):
+    def set_embed_title(self, title_name):
         """ Sets title of discord embed
         :param: title_name: title of embed
         :type: title_name: <str>
@@ -91,12 +104,16 @@ class discord_data_class(Util):
         """
         self.title_name = title_name
 
-
-# debug
-    def set_image(self, image_url, height, width, proxy_url=None):
+    def set_embed_image(self, image_url, height, width, proxy_url=None):
         """ Sets title of discord embed
-        :param: image: title of embed
-        :type: image: <str>
+        :param: image_url: title of embed
+        :type: image_url: <str>
+        :param: height: height of image
+        :type: height: <str>
+        :param: width: width of image
+        :type: width: <str>
+        :param: proxy_url: proxy_url
+        :type: proxy_url: <str>
         :return: None
         """
         embed_image = self.embed_image_structure.copy()
@@ -106,15 +123,14 @@ class discord_data_class(Util):
         embed_image["width"] = width
         self.image = embed_image
 
-    def get_image():
+    def get_embed_image(self):
         """ retrieves embed image object
         :return: embed image object
         :rtype: <dict>
         """
         return self.image
 
-
-    def set_color(self, color):
+    def set_embed_color(self, color):
         """ Sets color for discord embed
         :param: color: color of discord embed
         :type: color: <int>

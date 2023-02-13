@@ -10,11 +10,11 @@ Welcome to aws-discord bot's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-Contents
---------
 
+API
+==================
 .. toctree::
-   structure
+   discord
 
 Indices and tables
 ==================
