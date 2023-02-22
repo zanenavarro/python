@@ -1,7 +1,7 @@
 
 
-PLUGINS
-*******
+Discord Plugins
+***************
 .. autoclass:: recipe.RecipeHelper
   :show-inheritance:
   :members:

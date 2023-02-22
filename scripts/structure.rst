@@ -8,3 +8,5 @@
   :members:
 .. autoclass:: gym.class GymHelper(AmazonHelper):
   :members:
+.. autoclass:: discord_data_class.discord_data_class(Util)
+  :members:

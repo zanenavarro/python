@@ -1,6 +1,8 @@
+Discord Data Class
+******************
 
-
-.. automodule:: discord_data_class
-    :members:
+.. autoclass:: discord_data_class.discord_data_class
+   :show-inheritance:
+   :members:
 
 

@@ -21,11 +21,11 @@ def main():
 
     for index, line in enumerate(python_file_l):
         
-        regexp = re.compile(r'(class (.*):)')
+        regexp = re.compile(r'(class (.*):\n)')
         line_is_class = regexp.search(line)
         if (line_is_class):
             try:
-                class_name = line_is_class.group(1)
+                class_name = line_is_class.group(2)
                 structure_str += ".. autoclass:: {0}.{1}\n  :members:\n".format(name, class_name)
             except:
                 print("regex didnt matchh on line.")

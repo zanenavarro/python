@@ -12,14 +12,15 @@
 #
 import os
 import sys
-sys.path.append("../../lib")
-sys.path.append("../../util")
+sys.path.append("..\\..\\lib")
+sys.path.append("..\\..\\util")
 import discord_data_class
 import amazon
 import entertainment
 import receipt_ocr
 import recipe
 import gym
+
 
 
 
@@ -39,7 +40,9 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc',
-            'sphinx.ext.autosummary'
+              'sphinx.ext.doctest',
+              'sphinx.ext.autosummary',
+              'sphinx.ext.duration'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

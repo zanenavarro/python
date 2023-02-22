@@ -12,9 +12,16 @@ Welcome to aws-discord bot's documentation!
 
 
 API
-==================
+===
 .. toctree::
    discord
+   amazon
+
+Plugins
+=======
+.. toctree::
+   Discord Plugins <plugins>
+
 
 Indices and tables
 ==================
