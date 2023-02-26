@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
 
-import boto3
-from boto3.dynamodb.conditions import Attr
+import sys
+# import boto3
+
+# from boto3.dynamodb.conditions import Attr
+from pathlib import Path
+
+# FIXME
+path_to_util = "{}/util".format(Path(__file__).parent.parent)
+print(path_to_util)
+sys.path.append(path_to_util)
 
 from Util import Util
 
@@ -13,10 +21,10 @@ class AmazonHelper(Util):
         self.debug = True
 
     def get_data(self, table_name, filter_expression):
-        '''
-        Queries data from amazon Dynamo DB table
-        :param str table_name: DynamoDB table name
-        :param boto3.dynamodb.conditions.Attr: filter expression used to search for content in table
+        '''Queries data from amazon Dynamo DB table
+        
+        :param table_name: DynamoDB table name
+        :param filter_expression: boto3.dynamodb.conditions.Attr filter expression used to search for content in table
         :returns: list of dictionaries with amazon Table info
         '''
         dynamodb = boto3.resource('dynamodb')

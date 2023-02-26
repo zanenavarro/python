@@ -1,7 +1,13 @@
 import json
 import sys
 import os
-sys.path.append("..\\lib")
+from pathlib import Path
+
+path_to_lib = "{}/lib".format(Path(__file__).parent)
+print(path_to_lib)
+sys.path.append(path_to_lib)
+print(sys.path)
+print(os.listdir(path_to_lib))
 from gym import GymHelper
 from recipe import RecipeHelper
 from entertainment import EntertainmentHelper
@@ -13,27 +19,28 @@ gym = GymHelper()
 recipe = RecipeHelper()
 entertainment = EntertainmentHelper()
 
+
 # context :todo
 def lambda_handler(event):
   try:
     body = json.loads(event['body'])
   
-    signature = event['headers']['x-signature-ed25519']
-    timestamp = event['headers']['x-signature-timestamp']
+    # signature = event['headers']['x-signature-ed25519']
+    # timestamp = event['headers']['x-signature-timestamp']
 
-    #validate the interaction
+    # #validate the interaction
 
-    verify_key = VerifyKey(bytes.fromhex(PUBLIC_KEY))
+    # verify_key = VerifyKey(bytes.fromhex(PUBLIC_KEY))
 
-    message = timestamp + json.dumps(body, separators=(',', ':'))
+    # message = timestamp + json.dumps(body, separators=(',', ':'))
     
-    try:
-      verify_key.verify(message.encode(), signature=bytes.fromhex(signature))
-    except BadSignatureError:
-      return {
-        'statusCode': 401,
-        'body': json.dumps('invalid request signature')
-      }  
+    # try:
+    #   verify_key.verify(message.encode(), signature=bytes.fromhex(signature))
+    # except BadSignatureError:
+    #   return {
+    #     'statusCode': 401,
+    #     'body': json.dumps('invalid request signature')
+    #   }  
     
     # handle the interaction
 

@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
 
-import boto3
-from boto3.dynamodb.conditions import Attr
+import sys
+# import boto3
+
+# from boto3.dynamodb.conditions import Attr
+from pathlib import Path
+
+# FIXME
+path_to_util = "{}/util".format(Path(__file__).parent.parent)
+print(path_to_util)
+sys.path.append(path_to_util)
 
 from Util import Util
 

@@ -13,9 +13,21 @@ returns
 
 """
 import sys
-sys.path.append("../util")
-from discord_data_class import discord_data_class
+from pathlib import Path
+
+# FIXME : add single file to hold these util and lib - Plugin package
+
+path_to_util = "{}/util".format(Path(__file__).parent.parent)
+path_to_lib = "{}/lib".format(Path(__file__).parent.parent)
+
+# debug
+print(path_to_lib)
+
+sys.path.append(path_to_util)
+sys.path.append(path_to_lib)
 from amazon import AmazonHelper
+from discord_data_class import discord_data_class
+
 
 
 

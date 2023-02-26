@@ -1,19 +1,24 @@
 import json
 import sys
 import os
-sys.path.append("..\\lib")
-# from nacl.signing import VerifyKey
-# from nacl.exceptions import BadSignatureError
-from entertainment import EntertainmentHelper
+from pathlib import Path
+
+path_to_lib = "{}/lib".format(Path(__file__).parent)
+print(path_to_lib)
+sys.path.append(path_to_lib)
+print(sys.path)
+print(os.listdir(path_to_lib))
 from gym import GymHelper
 from recipe import RecipeHelper
+from entertainment import EntertainmentHelper
 from discord_data_class import discord_data_class
 
-PUBLIC_KEY = os.getenv("DISCORD_A")
+PUBLIC_KEY = os.getenv("BOT_TOKEN")
 
-recipe = RecipeHelper()
 gym = GymHelper()
-etertainment = EntertainmentHelper()
+recipe = RecipeHelper()
+entertainment = EntertainmentHelper()
+
 
 # context :todo
 def lambda_handler(event):
@@ -23,7 +28,7 @@ def lambda_handler(event):
     # signature = event['headers']['x-signature-ed25519']
     # timestamp = event['headers']['x-signature-timestamp']
 
-    # validate the interaction
+    # #validate the interaction
 
     # verify_key = VerifyKey(bytes.fromhex(PUBLIC_KEY))
 
@@ -67,14 +72,13 @@ def command_handler(type, body):
   :return: None
   """
   command = body['data']['name']
+  discord_dc = discord_data_class()
 
   if (command == 'generate_recipe'):
-    discord_dc = recipe.gen_recipes()
-    return discord_dc.get_message(type)
-
+      discord_dc = recipe.gen_recipes()
   else:
-  
-    return {
-      'statusCode': 400,
-      'body': json.dumps('unhandled command')
-    }
+    discord_dc.set_embed_description(description_info="Command not found")
+    discord_dc.load_embed_content()
+
+  return discord_dc.get_message(type)
+

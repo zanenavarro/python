@@ -6,7 +6,6 @@ import os
 import sys
 import requests
 import boto3
-import re
 import json
 # from selenium import webdriver
 # from selenium.webdriver.chrome.options import Options
@@ -15,15 +14,18 @@ import json
 # from selenium.webdriver.common.by import By
 # from boto3.dynamodb.conditions import Attr
 
-path_to_util = os.path.dirname(os.path.dirname(__file__)) + "\\util"
+from pathlib import Path
+
+# FIXME : add single file to hold these util and lib - Plugin package
+
+path_to_util = "{}/util".format(Path(__file__).parent.parent)
 sys.path.append(path_to_util)
 
-from amazon import AmazonHelper
 from dotenv import load_dotenv
+from amazon import AmazonHelper
 from discord_data_class import discord_data_class
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__)) + "\.env"
-
 load_dotenv(BASEDIR)
 #TODO: more filters to recipe generation
 # add options for users to specify
@@ -119,6 +121,7 @@ class RecipeHelper(AmazonHelper):
         # loading discord api class
         for recipe_data in recipe_info:
             # TODO: create desciption with more info
+            # TODO: can this be solved in a more intuitive way
             description_str += recipe_data["summary"]
 
             self.discord_data_class.set_embed_color(self.color)

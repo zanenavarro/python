@@ -1,6 +1,13 @@
 import json
 import sys
-sys.path.append("../../util")
+from pathlib import Path
+
+path_to_util = "{}/util".format(Path(__file__).parent.parent)
+
+# debug
+print(path_to_util)
+
+sys.path.append(path_to_util)
 from Util import Util         
 
 # testing sphinx gen yml         
@@ -10,6 +17,7 @@ class discord_data_class(Util):
     def __init__(self):
         super(discord_data_class).__init__()
         self.embed_list = []
+        self.error = False
         # self.body_type = {
         #     # "PONG": 1,
         #     # "CHANNEL_MESSAGE_WITH_SOURCE": 4,
@@ -50,20 +58,29 @@ class discord_data_class(Util):
 
         }
         self.title_name = "NOT_DEFINED"
+    
+    def set_embed_error(self):
+        """ Sets discord embed with contents for loading state -debug
+
+        :return: None
+        """
+        self.set_embed_description = "ERROR"
 
     def set_embed_description(self, description_info):
         """ sets embed description
-        :param: description_info: description str to be used in embed 
-        :type: description_info: <str>
+
+        :param description_info: description str to be used in embed 
+        :type description_info: <str>
         :return: None
-        :return: type
+        :rtype: None
         """
         self.embed_description = description_info
 
     def load_embed_content(self):
         """create array of embeds
-        :param: content_list: list of message content
-        :type: content_list: <list>
+
+        :param content_list: list of message content
+        :type content_list: <list>
         :return: None
         """
 
@@ -80,40 +97,52 @@ class discord_data_class(Util):
     def get_message(self, type_num):
         # Default to only embeds
         """returns a discord message
-        :param: type: body type of message
-        :type: type: <str>
+
+        :param type_num: body type of message
+        :type type_num: <str>
         :return: message_data: discord interaction object
         :rtype: <dict>
         """
         self.discord_message["embeds"] = self.embed_list
         self.embed_list = []
-        message_data = {
-                'statusCode': 200,
-                'body': {
-                    'type': type_num,
-                    'data': self.discord_message
+        if (self.error):
+            message_data = {
+                    'statusCode': 400,
+                    'body': {
+                        'type': type_num,
+                        'data': self.discord_message
+                        }
                     }
-                }
+        else:
+            message_data = {
+                    'statusCode': 200,
+                    'body': {
+                        'type': type_num,
+                        'data': self.discord_message
+                        }
+                    }
         return message_data
 
     def set_embed_title(self, title_name):
         """ Sets title of discord embed
-        :param: title_name: title of embed
-        :type: title_name: <str>
+
+        :param title_name: title of embed
+        :type title_name: <str>
         :return: None
         """
         self.title_name = title_name
 
     def set_embed_image(self, image_url, height, width, proxy_url=None):
         """ Sets title of discord embed
-        :param: image_url: title of embed
-        :type: image_url: <str>
-        :param: height: height of image
-        :type: height: <str>
-        :param: width: width of image
-        :type: width: <str>
-        :param: proxy_url: proxy_url
-        :type: proxy_url: <str>
+    
+        :param image_url: title of embed
+        :type image_url: <str>
+        :param height: height of image
+        :type height: <str>
+        :param width: width of image
+        :type width: <str>
+        :param proxy_url: proxy_url
+        :type proxy_url: <str>
         :return: None
         """
         embed_image = self.embed_image_structure.copy()
@@ -125,15 +154,18 @@ class discord_data_class(Util):
 
     def get_embed_image(self):
         """ retrieves embed image object
+
         :return: embed image object
         :rtype: <dict>
+        
         """
         return self.image
 
     def set_embed_color(self, color):
         """ Sets color for discord embed
-        :param: color: color of discord embed
-        :type: color: <int>
+
+        :param color: color of discord embed
+        :type color: <int>
         :return: None
         """
         self.color = color

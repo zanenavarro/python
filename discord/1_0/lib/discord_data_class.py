@@ -1,6 +1,13 @@
 import json
 import sys
-sys.path.append("../../util")
+from pathlib import Path
+
+path_to_util = "{}/util".format(Path(__file__).parent.parent)
+
+# debug
+print(path_to_util)
+
+sys.path.append(path_to_util)
 from Util import Util         
 
 # testing sphinx gen yml         
