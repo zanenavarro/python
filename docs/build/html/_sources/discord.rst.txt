@@ -1,22 +1,16 @@
+Plugins
+=======
 
+.. toctree::
+	recipe
+	entertainment
+	gym
+	receipt_ocr
 
-Discord Plugins
-***************
-.. autoclass:: recipe.RecipeHelper
-  :show-inheritance:
-  :members:
-.. autoclass:: entertainment.EntertainmentHelper
-  :show-inheritance:
-  :members:
-.. autoclass:: gym.GymHelper
-  :show-inheritance:
-  :members:
+APIs Used
+=========
 
+.. toctree::
+	amazon
+	discord_data_class
 
-Discord Handler
-***************
-
-
-
-Discord API
-***********

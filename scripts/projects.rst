@@ -1,0 +1,6 @@
+Projects
+========
+
+.. toctree::
+	discord
+
