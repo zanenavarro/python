@@ -1,3 +1,7 @@
+
+Discord Serverless Bot
+**********************
+
 Plugins
 =======
 
@@ -5,7 +9,6 @@ Plugins
 	recipe
 	entertainment
 	gym
-	receipt_ocr
 
 APIs Used
 =========
