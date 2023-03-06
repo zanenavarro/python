@@ -12,7 +12,6 @@ jobs:
   sphinx-auto-generate:
     steps:
         - uses: actions/checkout@v3  
-        - run: |
-          cd /docs/ 
-          make html
+        - run: cd /docs/ 
+        - run: make html
 
