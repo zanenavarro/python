@@ -12,10 +12,8 @@ jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2    
-      - name: Changing into sphinx /docs directory
-        run: cd /docs/ 
-          
-      - name: Calling make for html build
-        run: make html
+      - uses: actions/checkout@v3   
+        run: |
+          cd /docs/ 
+          make html
 
