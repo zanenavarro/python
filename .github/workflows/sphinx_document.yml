@@ -12,7 +12,10 @@ jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@v3  
-        - run: cd /docs/ 
-        - run: make html
+        - uses: actions/checkout@v3
+          with:
+            path: main
+        - run: |
+            cd /docs/ 
+            make html
 
