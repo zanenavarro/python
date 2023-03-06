@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v3
-        
+
         - run: |
             ls -l
-            cd /docs/ 
+            cd discord/Latest/docs/ 
             make html
 
