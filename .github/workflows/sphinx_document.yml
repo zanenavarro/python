@@ -1,0 +1,26 @@
+
+
+
+name: Generating Sphinx Documentation
+
+on: 
+  push:
+    paths:
+      - '**.py'
+
+jobs:
+  sphinx-auto-generate:
+    steps:
+      - uses: actions/checkout@v2
+    
+  # Example 1
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+
+      - name: Changing into sphinx /docs directory
+        run: cd /docs/ 
+          
+      - name: Calling make for html build
+        run: make html
+
