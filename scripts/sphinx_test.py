@@ -18,24 +18,61 @@ new_tree.create_node("api", API_LAYER, parent=BASE_LAYER)
 new_tree.create_node("projects", PROJECT_LAYER, parent=BASE_LAYER)
 
 # Projects contents
+# TODO: use repo name to locate start of proj
 new_tree.create_node("discord", "discord", parent=PROJECT_LAYER)
 # discord contents
+
 #TODO automate this
+"""
+Create a hadnler to easily create this treeelib pattern so you can 
+have an object to work with (easily call to parent-child ...) 
++ have access to object methods.
+"""
 
 # all items in lib
 # aLL items in api class
+
+
+
 new_tree.create_node("Plugins", "discord_plugins", parent="discord")
-new_tree.create_node("APIs", "discord_api", parent="discord")
+new_tree.create_node("APIs", "discord_apis", parent="discord")
 
 
 new_tree.create_node("recipe", "recipe", parent="discord_plugins")
 new_tree.create_node("entertainment", "entertainment", parent="discord_plugins")
 new_tree.create_node("gym", "gym", parent="discord_plugins")
 new_tree.create_node("receipt_ocr", "receipt_ocr", parent="discord_plugins")
-new_tree.create_node("amazon", "amazon_discord", parent="discord_api")
-new_tree.create_node("discord_data_class", "discord_data_class_discord", parent="discord_api")
+new_tree.create_node("amazon", "amazon_discord", parent="discord_apis")
+new_tree.create_node("discord_data_class", "discord_data_class_discord", parent="discord_apis")
 
 # new_tree.create_node("recipe", "recipe", parent="discord")
+
+"""
+test dictionary
+
+*any key with a value of an empty dictionary {} 
+will hold the context in <key>.rst file*
+
+index_struct = {
+        "discord": {
+            "plugins": {
+                "recipe": {},
+                "entertainment": {},
+                "gym": {},
+                "receipt_ocr": {},
+                "discord_data_class": {},
+                "amazon": {}
+            },
+            "apis": {
+                "amazon": {},
+                "discord_data_class": {}
+            }
+        }
+    }
+"""
+
+
+
 
 
 # api Contents
@@ -83,6 +120,8 @@ def create_rst(file_name, rst_structure, path="."):
 #     if()
 
 # creating 
+# calling to new_tree object in order to get structure 
+# (parent child relationship) shown below
 sphinx_titles = {
     "API": new_tree.children(API_LAYER),
     "Projects": new_tree.children(PROJECT_LAYER)
