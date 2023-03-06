@@ -10,10 +10,8 @@ on:
 
 jobs:
   sphinx-auto-generate:
-  
-    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3   
+      - uses: actions/checkout@v3  s
         run: |
           cd /docs/ 
           make html
