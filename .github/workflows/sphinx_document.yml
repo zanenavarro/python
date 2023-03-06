@@ -16,7 +16,7 @@ jobs:
           with:
             path: main
         - run: |
-            pwd
+            ls -l
             cd /docs/ 
             make html
 
