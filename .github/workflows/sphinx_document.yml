@@ -11,8 +11,8 @@ on:
 jobs:
   sphinx-auto-generate:
     steps:
-      - uses: actions/checkout@v3
-        run: |
+        - uses: actions/checkout@v3  
+        - run: |
           cd /docs/ 
           make html
 
