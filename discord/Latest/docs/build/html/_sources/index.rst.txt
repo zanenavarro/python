@@ -11,17 +11,10 @@ Welcome to aws-discord bot's documentation!
    :caption: Contents:
 
 
-API
-===
+Index
+=============
 .. toctree::
-   discord
-   amazon
-
-Plugins
-=======
-.. toctree::
-   Discord Plugins <plugins>
-
+   python
 
 Indices and tables
 ==================

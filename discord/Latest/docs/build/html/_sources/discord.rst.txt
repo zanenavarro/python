@@ -1,8 +1,18 @@
-Discord Data Class
-******************
+Discord
+*******
 
-.. autoclass:: discord_data_class.discord_data_class
-   :show-inheritance:
-   :members:
+Plugins
+=======
 
+.. toctree::
+	recipe
+	entertainment
+	gym
+
+APIs Used
+=========
+
+.. toctree::
+	amazon
+	discord_data_class
 
