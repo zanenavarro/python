@@ -12,7 +12,7 @@ on:
 jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
-     defaults:
+    defaults:
       run:
         working-directory: ./main
     steps:
