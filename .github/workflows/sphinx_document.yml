@@ -12,11 +12,11 @@ on:
 jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
+    working-directory: ./main
     steps:
-        - uses: actions/checkout@v3
+        - uses: actions/checkout@
+        
           with:
               fetch-depth: 0
         - run: git checkout HEAD^
-        - run: cd python
-
-
+        - run: pwd 
