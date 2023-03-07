@@ -1,0 +1,5 @@
+git add .github/workflows/sphinx_document.yml
+git commit -m "updating action file: sphinx-autodoc"
+git add ./scripts/sphinx_test.py
+git commit -m "TEST: github action sphinx_doc"
+git push origin main
