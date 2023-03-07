@@ -15,11 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v3
+          with:
+            path: main
         - run: |
-            echo $HOME
             ls 
-            cd $HOME/docs 
-            ls docs
+            cd main/docs 
+            ls main/docs
             ls discord
             make html
 
