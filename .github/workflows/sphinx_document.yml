@@ -9,6 +9,7 @@ on:
       - '**.py'
 
 
+
 jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
