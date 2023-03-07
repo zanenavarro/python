@@ -17,7 +17,7 @@ jobs:
         - uses: actions/checkout@v3
         - run: |
             ls 
-            cd /docs/ 
-            ls /docs
+            cd docs 
+            ls docs
             make html
 
