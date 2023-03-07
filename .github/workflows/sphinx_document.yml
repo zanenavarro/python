@@ -17,11 +17,6 @@ jobs:
           with:
               fetch-depth: 0
         - run: git checkout HEAD^
-        - run: |
-            ls 
-            cd /docs 
-            ls /docs
-            ls discord
-            make html
+        - run: ls
 
 
