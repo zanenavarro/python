@@ -168,6 +168,7 @@ def get_project_files():
     # collecting all relevant files found in API layer
     for api in new_tree.children(API_LAYER):
         relevant_files.append(api.tag)
+        
 
 
 
