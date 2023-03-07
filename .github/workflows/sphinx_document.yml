@@ -20,5 +20,6 @@ jobs:
             ls 
             cd docs 
             ls docs
+            ls discord
             make html
 
