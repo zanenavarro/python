@@ -16,6 +16,6 @@ jobs:
         - run: |
             ls
             cd ./docs/ 
-            ls
+            ls ./docs
             make html
 
