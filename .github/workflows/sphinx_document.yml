@@ -16,9 +16,9 @@ jobs:
     steps:
         - uses: actions/checkout@v3
         - run: |
-            pwd
+            echo $HOME
             ls 
-            cd docs 
+            cd $HOME/docs 
             ls docs
             ls discord
             make html
