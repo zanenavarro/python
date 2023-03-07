@@ -16,12 +16,13 @@ jobs:
     steps:
         - uses: actions/checkout@v3
           with:
-            path: main
+              fetch-depth: 2
+          - run: git checkout HEAD^
         - run: |
             ls 
-            cd main/docs 
-            ls main/docs
+            cd /docs 
+            ls /docs
             ls discord
             make html
-            
+
 
