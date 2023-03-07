@@ -12,7 +12,9 @@ on:
 jobs:
   sphinx-auto-generate:
     runs-on: ubuntu-latest
-    working-directory: ./main
+     defaults:
+      run:
+        working-directory: ./main
     steps:
         - uses: actions/checkout@
         
