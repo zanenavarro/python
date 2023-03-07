@@ -38,9 +38,6 @@ new_tree.create_node("Plugins", "discord_plugins", parent="discord")
 new_tree.create_node("APIs", "discord_apis", parent="discord")
 
 
-
-
-
 new_tree.create_node("recipe", "recipe", parent="discord_plugins")
 new_tree.create_node("entertainment", "entertainment", parent="discord_plugins")
 new_tree.create_node("gym", "gym", parent="discord_plugins")
@@ -136,7 +133,7 @@ create_rst(new_tree.__getitem__(BASE_LAYER).tag, sphinx_titles)
 for project_item in new_tree.children(PROJECT_LAYER):
     sphinx_titles = {
         "Plugins": new_tree.children("discord_plugins"),
-        "APIs Used": new_tree.children("discord_api")
+        "APIs Used": new_tree.children("discord_apis")
     }    
     create_rst(project_item.tag, sphinx_titles)
 
@@ -152,6 +149,36 @@ for project_item in new_tree.children(PROJECT_LAYER):
 # }    
 # create_rst("projects", sphinx_titles)
 
+def get_project_files():
+    """ gathers list of .rst files used in built tree
+    
+    :return: List of project .rst files for all projects
+    :rtype: list 
+    """
+    relevant_files = []
+
+    # collecting all relevant files found in lowest layer
+    for project in new_tree.children(PROJECT_LAYER):
+        project_titles = new_tree.children(project.identifier)
+        print(project_titles)
+        for title in project_titles:
+            for file in new_tree.children(title.identifier):
+                relevant_files.append(file.tag)
+        
+    # collecting all relevant files found in API layer
+    for api in new_tree.children(API_LAYER):
+        relevant_files.append(api.tag)
+
+
+    print(relevant_files)
+    return relevant_files  
+
+
+
+
+
+
 
 print(new_tree.__getitem__(API_LAYER))
 new_tree.show()
+print(get_project_files())
