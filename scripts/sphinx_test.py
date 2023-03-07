@@ -170,7 +170,6 @@ def get_project_files():
         relevant_files.append(api.tag)
         
 
-
     print(relevant_files)
     return relevant_files  
 
