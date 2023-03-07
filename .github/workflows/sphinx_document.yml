@@ -17,6 +17,6 @@ jobs:
           with:
               fetch-depth: 0
         - run: git checkout HEAD^
-        - run: ls -l
+        - run: cd python
 
 
