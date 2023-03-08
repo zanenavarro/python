@@ -157,7 +157,8 @@ def get_project_files():
     :rtype: list 
     """
     relevant_files = []
-    
+
+
 
     # collecting all relevant files found in lowest layer
     for project in new_tree.children(PROJECT_LAYER):
