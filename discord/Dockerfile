@@ -28,8 +28,8 @@ SHELL ["conda", "run", "-n", "main_env", "/bin/bash", "-c"]
 
 
 # Python program to run in the container
-COPY /Latest/bin/main.py main.py
-ENTRYPOINT ["conda", "run", "-n", "main_env", "python", "main.py"]
+COPY /Latest/bin/main.py /Latest/bin/main.py
+ENTRYPOINT ["conda", "run", "-n", "main_env", "python", "/Latest/bin/main.py"]
 
 # # executing app
 # CMD [ "python3", "bin/main.py", "--host=0.0.0.0", ">>", "/working_dir/.debug.log","2>&1"]

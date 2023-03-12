@@ -3,11 +3,13 @@ import sys
 import os
 from pathlib import Path
 
-path_to_lib = "{}/lib".format(Path(__file__).parent)
+path_to_lib = "{}/lib".format(Path(__file__).parent.parent)
 print(path_to_lib)
 sys.path.append(path_to_lib)
+
+
 print(sys.path)
-print(os.listdir(path_to_lib))
+# print(os.listdir(path_to_lib))
 from gym import GymHelper
 from recipe import RecipeHelper
 from entertainment import EntertainmentHelper
